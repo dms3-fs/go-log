@@ -1,4 +1,4 @@
-package loggabletracer
+package loggabledms3fstracer
 
 import opentracing "github.com/opentracing/opentracing-go"
 

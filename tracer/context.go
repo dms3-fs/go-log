@@ -1,4 +1,4 @@
-package loggabletracer
+package loggabledms3fstracer
 
 // SpanContext holds the basic Span metadata.
 type SpanContext struct {
@@ -24,7 +24,7 @@ func (c SpanContext) ForeachBaggageItem(handler func(k, v string) bool) {
 	}
 }
 
-// WithBaggageItem returns an entirely new loggabletracer SpanContext with the
+// WithBaggageItem returns an entirely new loggabledms3fstracer SpanContext with the
 // given key:value baggage pair set.
 func (c SpanContext) WithBaggageItem(key, val string) SpanContext {
 	var newBaggage map[string]string

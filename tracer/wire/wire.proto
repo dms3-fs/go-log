@@ -1,5 +1,5 @@
 syntax = "proto3";
-package loggabletracer.wire;
+package loggabledms3fstracer.wire;
 option go_package = "wire";
 
 message TracerState {

@@ -1,4 +1,4 @@
-package loggabletracer
+package loggabledms3fstracer
 
 import (
 	"encoding/binary"
@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/ipfs/go-log/tracer/wire"
+	"github.com/dms3-fs/go-log/tracer/wire"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

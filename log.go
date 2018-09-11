@@ -1,5 +1,5 @@
-// Package log is the logging library used by IPFS
-// (https://github.com/ipfs/go-ipfs). It uses a modified version of
+// Package log is the logging library used by DMS3FS
+// (https://github.com/dms3-fs/go-dms3-fs). It uses a modified version of
 // https://godoc.org/github.com/whyrusleeping/go-logging .
 package log
 
@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"time"
 
-	writer "github.com/ipfs/go-log/writer"
+	writer "github.com/dms3-fs/go-log/writer"
 
 	opentrace "github.com/opentracing/opentracing-go"
 	otExt "github.com/opentracing/opentracing-go/ext"

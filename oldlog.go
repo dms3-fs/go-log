@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	tracer "github.com/ipfs/go-log/tracer"
+	tracer "github.com/dms3-fs/go-log/tracer"
 
 	colorable "github.com/mattn/go-colorable"
 	opentrace "github.com/opentracing/opentracing-go"
@@ -31,8 +31,8 @@ var defaultLogFormat = "color"
 
 // Logging environment variables
 const (
-	envLogging    = "IPFS_LOGGING"
-	envLoggingFmt = "IPFS_LOGGING_FMT"
+	envLogging    = "DMS3FS_LOGGING"
+	envLoggingFmt = "DMS3FS_LOGGING_FMT"
 )
 
 // ErrNoSuchLogger is returned when the util pkg is asked for a non existant logger

@@ -1,14 +1,14 @@
-package loggabletracer
+package loggabledms3fstracer
 
 import (
 	"time"
 
-	writer "github.com/ipfs/go-log/writer"
+	writer "github.com/dms3-fs/go-log/writer"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 
 // Tracer extends the opentracing.Tracer interface with methods to
-// probe implementation state, for use by loggabletracer consumers.
+// probe implementation state, for use by loggabledms3fstracer consumers.
 type Tracer interface {
 	opentracing.Tracer
 
@@ -174,7 +174,7 @@ func (t *LoggableTracer) StartSpanWithOptions(
 	sp := t.getSpan()
 	// Look for a parent in the list of References.
 	//
-	// TODO: would be nice if loggabletracer did something with all
+	// TODO: would be nice if loggabledms3fstracer did something with all
 	// References, not just the first one.
 ReferencesLoop:
 	for _, ref := range opts.References {

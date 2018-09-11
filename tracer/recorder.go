@@ -1,4 +1,4 @@
-package loggabletracer
+package loggabledms3fstracer
 
 import (
 	"bytes"
@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	writer "github.com/ipfs/go-log/writer"
+	writer "github.com/dms3-fs/go-log/writer"
 	opentrace "github.com/opentracing/opentracing-go"
 )
 

@@ -1,4 +1,4 @@
-package loggabletracer
+package loggabledms3fstracer
 
 import (
 	"encoding/json"
@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	writer "github.com/ipfs/go-log/writer"
+	writer "github.com/dms3-fs/go-log/writer"
 	opentrace "github.com/opentracing/opentracing-go"
 )
 
